@@ -1,0 +1,25 @@
+{
+  "name": "weight-converter",
+  "version": "1.0.0",
+  "description": "this is weight converter project which will tell your weight in three different units",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weight",
+    "kilogram",
+    "pounds",
+    "grams",
+    "converter",
+    "mass",
+    "kg",
+    "gm",
+    "lbs"
+  ],
+  "author": "sagar sharma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

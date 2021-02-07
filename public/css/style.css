@@ -1,0 +1,42 @@
+ /*body{   
+    background-color: #2d2926ff;
+    color: #e94b3cff;
+} */
+
+
+
+ .container-1{
+    background-color: #fc766aff;
+    color: #184a45ff;
+    width: 800px;
+    margin: 100px auto;
+    border: 2px solid #b0b8b4ff;
+    border-radius: 20px;
+    justify-content: space-around;  
+    padding: 20px;
+    text-align: center;
+}
+
+.container-2{
+    background-color: #184a45ff;
+    border: 2px solid #b0b8b4ff;
+    border-radius: 20px;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding: 20px
+}
+
+#reset-1{
+    display: none;
+}
+
+#inputField{
+    display: none;
+}
+
+#result1{
+    color: #fc766aff;
+    margin-top: 20px;
+}
+
