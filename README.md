@@ -3,7 +3,6 @@
 
 ### [View Demo]()
 
-### [View Demo](https://sagar-sharma-7.github.io/Weight-Converter/public/index.html)
 
 <br>
 
