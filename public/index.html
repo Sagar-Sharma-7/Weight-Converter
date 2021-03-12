@@ -2,39 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
     <title>Weight Converter</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
-   <div class="container-1">
-    <h1>Type Your Weight in any Unit.</h1>
-       <div class="container-2">
-        <button id="kg" type="button" class="btn btn-outline-light btn-lg btn-block" onclick="kg()">Kilogram</button>
-        <button id="gm" type="button" class="btn btn-outline-light btn-lg btn-block" onclick="gm()">Grams</button>
-        <button id="pd" type="button" class="btn btn-outline-light btn-lg btn-block" onclick="pd()">Pounds</button>
-        <button id="oc" type="button" class="btn btn-outline-light btn-lg btn-block" onclick="oc()">Ounces</button>
+    
+    <div class="container">
+        <h1 id="mainHeading"></h1>
+        <button class="btn kilograms" name="kg"></button>
+        <button class="btn grams" name="gm"></button>
+        <button class="btn pounds" name="lbs"></button>
+        <button class="btn ounces" name="oz"></button>
 
-        <div class="input-group mt-4" id="inputField">
-            <input type="number" class="form-control" placeholder="Your weight..." oninput="weightConverter1(this.value)" onchange="weightConverter1(this.value)">
-            <div class="input-group-append">
-              <span class="input-group-text" id="basic-addon2"></span>
-            </div>
-          </div>
+        <div class="resultHeader">
+            <input type="number"  id="hide" class="userWeight" placeholder="Type your weight here..." min="0">
+            <button id="hide" class="disableBtn unitName" disabled></button>
+            <button id="hide" class="calculateBtn"></button>
+        </div>
+        <div class="resultContainer" id="hide">
+            <div class="resultBox"></div>
+            <div class="resultBox"></div>
+            <div class="resultBox"></div>
+        </div>
+        <button id="hide" class="backBtn"></button>
+    </div>
 
-          
-            <p id="result1"></p>
-  
+    <footer>
+           <a href="https://github.com/sagar-sharma-7" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="github logo" title="Sagar's Github"></a> 
+    </footer>
 
 
-          
-        <button id="reset-1" class="btn btn-outline-danger btn-lg btn-block mt-3"  onclick="reset()">Reset</button>
-   </div>
-   
- </div>
-
-
-    <script src="js/main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

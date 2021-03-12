@@ -1,42 +1,166 @@
- /*body{   
-    background-color: #2d2926ff;
-    color: #e94b3cff;
-} */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Merienda&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    background-color: #151515;
+    font-family: 'EB Garamond', serif;
+    color: #fff;
+    user-select: none;
+}
 
- .container-1{
-    background-color: #fc766aff;
-    color: #184a45ff;
-    width: 800px;
-    margin: 100px auto;
-    border: 2px solid #b0b8b4ff;
-    border-radius: 20px;
-    justify-content: space-around;  
-    padding: 20px;
+.container{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#mainHeading{
+    margin-bottom: 10vh;
+    transition: 1s;
+    font-size: 2.5rem;
     text-align: center;
+    padding: 10px;
 }
 
-.container-2{
-    background-color: #184a45ff;
-    border: 2px solid #b0b8b4ff;
-    border-radius: 20px;
+button{
+    cursor: pointer;
+}
+
+.btn{
+    font-family: inherit;
+    width: 80vw;
+    height: 10vh;
+    margin: 0.2vh auto;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    transition: 500ms;
+}
+
+.btn:hover{
+    background-color: #151515;
+    color: #fff;
+    border: 2px solid #fff;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-radius: 0px;
+    width: 70vw;
+}
+
+#hide{
+    display: none;
+}
+
+.resultHeader{
+    display: flex;
+    width: 80vw;
+    height: 7vw;
+    justify-content: center;
+}
+
+input[type="number"]{
+    width: 60vw;
+    height: 100%;
+    border-radius: 10px 0px 0px 10px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 10vw;
+    font-family: inherit;
+}
+
+.resultHeader .calculateBtn{
+    width: 15vw;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-size: 18px;
+    font-family: inherit;
+}
+
+.resultHeader .disableBtn{
+    width: 5vw;
+    color: #fff;
+    font-size: 18px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    cursor: default;
+}
+
+.resultContainer{
+    text-align: center;
+    width: 80vw;
+    margin: 4vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.resultContainer .resultBox{
     width: 100%;
-    height: auto;
-    margin-top: 30px;
-    padding: 20px
+    padding: 2vh;
+    color: #151515;
+    border: 2px solid #151515;
+    border-radius: 10px;
 }
 
-#reset-1{
-    display: none;
+
+
+.backBtn{
+    width: 50vw;
+    height: 7vh;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 10vh;
 }
 
-#inputField{
-    display: none;
+.calculateBtn:hover, .backBtn:hover{
+    background-color: rgb(53, 238, 133);
 }
 
-#result1{
-    color: #fc766aff;
-    margin-top: 20px;
+
+
+footer{
+   position: absolute;
+   bottom: 0px;
+   text-align: center;
+   width: 100%;
 }
+
+@media all and (max-width: 600px){
+    .resultHeader{
+        width: 95vw;
+    }
+    input[type="number"]{
+        font-size: 13px;
+    }
+    .resultHeader .calculateBtn{
+        width: 25vw;
+        font-size: 13px;
+    }
+    .resultHeader .disableBtn{
+        width: 15vw;
+        font-size: 13px;
+    }
+}
+ 
+
+
+
 
