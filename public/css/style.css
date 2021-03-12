@@ -135,14 +135,6 @@ input[type="number"]{
 }
 
 
-
-footer{
-   position: absolute;
-   bottom: 0px;
-   text-align: center;
-   width: 100%;
-}
-
 @media all and (max-width: 600px){
     .resultHeader{
         width: 95vw;
