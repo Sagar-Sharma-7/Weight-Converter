@@ -14,18 +14,7 @@
 
 <br>
 
-
-<<<<<<< HEAD
-## Text Editor Used
-=======
-### How to get express?
-1. First make a package.json file using npm command **`$ npm init`**
-2. Then type second command to get express **`$ npm i express`**
-3. Now you can check your dependences of **package.json**
-
-
 ## Text Editor
->>>>>>> 1fc0825f3fe824294107c0d2625c84b5683daa03
 ![alttext](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
 ## Languages Used
@@ -38,7 +27,7 @@
  ![express](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
 
 </p>
-<<<<<<< HEAD
+
 <hr>
  
 ## Font Used
@@ -50,7 +39,7 @@ body{
 }
 ```
 =======
->>>>>>> 1fc0825f3fe824294107c0d2625c84b5683daa03
+
 
  <hr>
 
@@ -78,10 +67,9 @@ body{
 </p>
 
 [![alttext](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sagar-Sharma-7)
-<<<<<<< HEAD
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-=======
 ![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)
->>>>>>> 1fc0825f3fe824294107c0d2625c84b5683daa03
+
 
